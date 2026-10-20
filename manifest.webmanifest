@@ -1,0 +1,24 @@
+{
+  "name": "終末世界",
+  "short_name": "終末世界",
+  "description": "終末世界サバイバル・文明再建ゲーム",
+  "lang": "ja",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./index.html",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#14120f",
+  "theme_color": "#14120f",
+  "categories": ["games"],
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "screenshots": [
+    {"src": "icons/screenshot-wide.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide"},
+    {"src": "icons/screenshot-narrow.png", "sizes": "720x1280", "type": "image/png"}
+  ]
+}
